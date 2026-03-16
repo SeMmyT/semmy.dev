@@ -18,7 +18,7 @@
 
 @layer base {
   body {
-    @apply antialiased bg-background text-foreground;
+    @apply antialiased bg-canvas text-text-primary;
     font-family: var(--font-sans);
   }
   * {
@@ -99,7 +99,7 @@
 }
 
 @theme inline {
-  --font-sans: 'Geist Variable', sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
