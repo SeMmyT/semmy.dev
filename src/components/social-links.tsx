@@ -2,7 +2,7 @@ import { Github, Mail, Twitter } from "lucide-react";
 
 const links = [
   { icon: Github, href: "https://github.com/SeMmyT", label: "GitHub" },
-  { icon: Twitter, href: "https://x.com/SeMmyTrane", label: "X" },
+  { icon: Twitter, href: "https://x.com/SeMmy_Trane", label: "X" },
   { icon: Mail, href: "mailto:hello@semmy.dev", label: "Email" },
 ];
 
