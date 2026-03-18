@@ -5,7 +5,6 @@ export interface Project {
   category: string;
   private?: boolean;
   url?: string;
-  credit?: string;
 }
 
 export const categories = [
@@ -36,31 +35,6 @@ export const projects: Project[] = [
     description:
       "Library of 50+ versioned, copy-paste modules for AI agent development. Themes, components, hooks, Rust audio/image processing.",
     tech: ["TypeScript", "React", "Rust"],
-    category: "ai agents",
-    private: true,
-    credit: "VVish",
-  },
-  {
-    name: "Klowalski",
-    description:
-      "Remote dev agent with skill factory, knowledge distillation, and cross-session workspace state management.",
-    tech: ["TypeScript", "AI"],
-    category: "ai agents",
-    private: true,
-  },
-  {
-    name: "RE:Surf",
-    description:
-      "WSL2-hardened fork of surf-cli. Multi-profile browser automation, Windows-side native messaging, auto-discovery.",
-    tech: ["TypeScript", "CDP", "WSL2"],
-    category: "ai agents",
-    private: true,
-  },
-  {
-    name: "Skills",
-    description:
-      "Curated collection of 20+ skills for AI coding agents. TDD, debugging, design, Python, Go, video, docs, diagrams.",
-    tech: ["TypeScript", "AI"],
     category: "ai agents",
     private: true,
   },
@@ -105,14 +79,6 @@ export const projects: Project[] = [
     tech: ["TypeScript", "OSS"],
     category: "claude code skills",
     url: "https://github.com/oss-skills/upstream-recon",
-  },
-  {
-    name: "Win Organizer Skill",
-    description:
-      "Claude Code skill for secure AI-assisted file management on Windows PCs via SSH through Tailscale VPN.",
-    tech: ["TypeScript", "SSH"],
-    category: "claude code skills",
-    private: true,
   },
 
   // ── Voice & Audio ──
@@ -163,28 +129,6 @@ export const projects: Project[] = [
     tech: ["TypeScript", "CLI"],
     category: "apps & tools",
   },
-  {
-    name: "Crawler",
-    description: "Web scraper for product data extraction and indexing.",
-    tech: ["TypeScript", "Scraping"],
-    category: "apps & tools",
-    private: true,
-  },
-  {
-    name: "SignalHire CLI",
-    description: "CLI interface for SignalHire recruitment platform.",
-    tech: ["TypeScript", "CLI"],
-    category: "apps & tools",
-    private: true,
-  },
-  {
-    name: "Better SH UX",
-    description:
-      "Enhanced SignalHire UX MVP with AI-powered search, filters, and gamification.",
-    tech: ["TypeScript", "AI"],
-    category: "apps & tools",
-    private: true,
-  },
 
   // ── Gaming ──
   {
@@ -212,37 +156,6 @@ export const projects: Project[] = [
   },
 
   // ── Web & Ecommerce ──
-  {
-    name: "Govantazh",
-    description:
-      "Cargo management SaaS with multi-tenant SQLite, Hono API, and FastAPI microservices.",
-    tech: ["TypeScript", "Python", "Hono"],
-    category: "web & ecommerce",
-    private: true,
-  },
-  {
-    name: "Ecomlanding",
-    description:
-      "E-commerce landing page with React Router 7, Drizzle ORM, and A/B pricing variants.",
-    tech: ["TypeScript", "React", "Drizzle"],
-    category: "web & ecommerce",
-    private: true,
-  },
-  {
-    name: "Dashboard",
-    description:
-      "Map dashboard for a transportation company with real-time tracking.",
-    tech: ["TypeScript", "Maps"],
-    category: "web & ecommerce",
-    private: true,
-  },
-  {
-    name: "DiyaCRM",
-    description: "Customer relationship management system.",
-    tech: ["TypeScript"],
-    category: "web & ecommerce",
-    private: true,
-  },
   {
     name: "RE_Holoscape",
     description:

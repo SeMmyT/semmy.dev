@@ -15,14 +15,6 @@ function LinkButton({ url }: { url: string }) {
   );
 }
 
-function Credit({ name }: { name: string }) {
-  return (
-    <span className="font-mono text-[10px] uppercase tracking-wider text-text-muted">
-      w/ {name}
-    </span>
-  );
-}
-
 function CardView({ project }: { project: Project }) {
   return (
     <div className="group border border-dashed border-border p-4 transition-all duration-150 hover:border-border-accent hover:shadow-[0_0_12px_rgba(74,222,128,0.15)]">
@@ -52,7 +44,6 @@ function CardView({ project }: { project: Project }) {
             [private]
           </span>
         )}
-        {project.credit && <Credit name={project.credit} />}
         {project.url && !project.private && (
           <span className="ml-auto">
             <LinkButton url={project.url} />
@@ -70,11 +61,6 @@ function ListView({ project }: { project: Project }) {
       <span className="min-w-0 flex-shrink-0 font-mono text-xs font-bold uppercase tracking-wider text-text-primary">
         {project.name}
       </span>
-      {project.credit && (
-        <span className="hidden font-mono text-[10px] text-text-muted sm:inline">
-          w/ {project.credit}
-        </span>
-      )}
       <span className="hidden min-w-0 flex-1 truncate text-xs text-text-body sm:block">
         {project.description}
       </span>
@@ -125,7 +111,6 @@ function CatView({ project }: { project: Project }) {
       <div className="flex items-center gap-3 font-mono text-[10px] uppercase tracking-widest text-text-muted">
         <span>{project.category}</span>
         {project.private && <span>:: private</span>}
-        {project.credit && <span>:: w/ {project.credit}</span>}
         {project.url && !project.private && (
           <span className="ml-auto">
             <LinkButton url={project.url} />
