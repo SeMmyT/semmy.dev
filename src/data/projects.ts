@@ -36,7 +36,31 @@ export const projects: Project[] = [
       "Library of 50+ versioned, copy-paste modules for AI agent development. Themes, components, hooks, Rust audio/image processing.",
     tech: ["TypeScript", "React", "Rust"],
     category: "ai agents",
-    private: true,
+    url: "https://github.com/SeMmyT/agent-prefab",
+  },
+  {
+    name: "OSS Skills",
+    description:
+      "Open-source Claude Code skill packs — CLI development, Go development, and more.",
+    tech: ["TypeScript", "AI"],
+    category: "ai agents",
+    url: "https://github.com/SeMmyT/oss-skills",
+  },
+  {
+    name: "Lysyna Benchmark",
+    description:
+      "Benchmark suite: can AI models distinguish transliterated identities across scripts?",
+    tech: ["TypeScript", "AI"],
+    category: "ai agents",
+    url: "https://github.com/SeMmyT/lysyna-benchmark",
+  },
+  {
+    name: "Docs",
+    description:
+      "Public collection of koans, plans, rozvidka notes, and strategy docs for AI agent development.",
+    tech: ["Markdown"],
+    category: "ai agents",
+    url: "https://github.com/SeMmyT/docs",
   },
 
   // ── Claude Code Skills ──
@@ -124,6 +148,14 @@ export const projects: Project[] = [
     url: "https://github.com/SeMmyT/simple-oled-screensaver",
   },
   {
+    name: "Orchestrator ScreenSaver",
+    description:
+      "1-bit dither screensaver for the OG orchestration field. Floyd-Steinberg, Mac-1988-meets-Minority-Report aesthetic.",
+    tech: ["TypeScript", "Canvas"],
+    category: "apps & tools",
+    url: "https://github.com/SeMmyT/orchestrator-screensaver",
+  },
+  {
     name: "YT CLI",
     description: "YouTube CLI tool.",
     tech: ["TypeScript", "CLI"],
@@ -137,6 +169,7 @@ export const projects: Project[] = [
       "Cross-platform co-op game — ghosts hunt a target in a dithered 1-bit maze. VR, PC, Switch, mobile.",
     tech: ["Unity", "C#", "Photon"],
     category: "gaming",
+    url: "https://github.com/SeMmyT/ghost-hunt",
   },
   {
     name: "ARC Raiders Data",
@@ -156,6 +189,30 @@ export const projects: Project[] = [
   },
 
   // ── Web & Ecommerce ──
+  {
+    name: "CosmeticIQ",
+    description:
+      "Cosmetic product catalog and browser built with Astro.",
+    tech: ["Astro", "TypeScript"],
+    category: "web & ecommerce",
+    url: "https://github.com/SeMmyT/cosmeticiq",
+  },
+  {
+    name: "SkladIQ",
+    description:
+      "Ingredient database with safety ratings built with Astro.",
+    tech: ["Astro", "TypeScript"],
+    category: "web & ecommerce",
+    url: "https://github.com/SeMmyT/skladiq",
+  },
+  {
+    name: "RestoGuide",
+    description:
+      "Restaurant guide by city and cuisine built with Astro.",
+    tech: ["Astro", "TypeScript"],
+    category: "web & ecommerce",
+    url: "https://github.com/SeMmyT/restoguide",
+  },
   {
     name: "RE_Holoscape",
     description:
