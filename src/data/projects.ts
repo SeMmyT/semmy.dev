@@ -28,7 +28,7 @@ export const projects: Project[] = [
       "Ed25519-signed append-only memory chain for AI agents. Tamper-evident session persistence with cryptographic verification.",
     tech: ["TypeScript", "Ed25519", "CLI"],
     category: "ai agents",
-    url: "https://github.com/SeMmyT/witness-memory-chain",
+    private: true,
   },
   {
     name: "Agent Prefab",
